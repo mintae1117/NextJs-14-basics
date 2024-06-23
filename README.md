@@ -12,3 +12,6 @@
 <p>fetching data => server component : async / await
 <p>loading => loading component
 <p>multi fetching => Promise.all / but!! => Suspense 가 더 좋음! re/promise.all 은 모든 data fetching 다될때까지 loading 화면으로 나오지만 suspense 는 로딩상태를 분리해준다. 그럼 page 자체를 기다리지 않고 component 단위로 await 할 수 있기때문에 훨씬 효율적이다.
+
+## 0623 Css
+<p>css styling 연습 및 파일구조 경험 => 대부분 비슷한데 module 쓰는법이 조금 다른것 같다. 그래도 익숙해 지면 금방 잘 될듯? 연습 많이하자.
