@@ -1,9 +1,10 @@
 .nav {
     background-color: red;
-    padding: 50px 100px;
+    padding: 20px 50px;
   }
   
   .list {
     display: flex;
+    flex-direction: column;
   }
   
