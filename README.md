@@ -7,3 +7,8 @@
 ## 0616 Loading State using Suspense from React.
 <p>Page 단위 로딩 => loading.tsx
 <p>서버 컴포넌트 단위 로딩 => Suspense
+
+## 0623 Recap
+<p>fetching data => server component : async / await
+<p>loading => loading component
+<p>multi fetching => Promise.all / but!! => Suspense 가 더 좋음! re/promise.all 은 모든 data fetching 다될때까지 loading 화면으로 나오지만 suspense 는 로딩상태를 분리해준다. 그럼 page 자체를 기다리지 않고 component 단위로 await 할 수 있기때문에 훨씬 효율적이다.
