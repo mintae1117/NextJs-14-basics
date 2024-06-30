@@ -21,3 +21,6 @@
 메타데이터 객체(metadata) 및 generateMetadata 함수는 서버 컴포넌트에서만 지원됩니다.
 동일한 경로에서 메타데이터 객체와 generateMetadata 함수를 모두 export 할 수는 없습니다. (둘 중 하나만 사용 가능)
 <p>https://nextjs.org/docs/app/api-reference/functions/generate-metadata#generatemetadata-function
+
+## 0630
+<p>deployment and prefetch => prefetch / rendering 되는 요소의 자식 data 들을 미리 fetch 해서 자식 페이지에 들어갔을때 이미 data가 fetch 돼있게 해준다!
