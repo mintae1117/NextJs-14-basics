@@ -15,3 +15,9 @@
 
 ## 0623 Css
 <p>css styling 연습 및 파일구조 경험 => 대부분 비슷한데 module 쓰는법이 조금 다른것 같다. 그래도 익숙해 지면 금방 잘 될듯? 연습 많이하자.
+
+## 0630
+<p>generateMetadata
+메타데이터 객체(metadata) 및 generateMetadata 함수는 서버 컴포넌트에서만 지원됩니다.
+동일한 경로에서 메타데이터 객체와 generateMetadata 함수를 모두 export 할 수는 없습니다. (둘 중 하나만 사용 가능)
+<p>https://nextjs.org/docs/app/api-reference/functions/generate-metadata#generatemetadata-function
